@@ -21,7 +21,7 @@ jobs:
 
       - name: Build
         run: |
-          pio run -e STM32F103RET6_creality
+          pio run -e STM32F103RE_creality
 
       - name: Collect firmware
         run: |
