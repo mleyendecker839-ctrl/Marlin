@@ -26,7 +26,7 @@ jobs:
       - name: Collect firmware
         run: |
           mkdir -p out
-          cp .pio/build/STM32F103RE_creality/firmware.bin out/ 
+          cp .pio/build/STM32F103RE_creality/firmware*.bin out/ 
 
       - uses: actions/upload-artifact@v4
         with:
